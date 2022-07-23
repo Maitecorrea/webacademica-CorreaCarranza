@@ -1,72 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cursos</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href= "cursos.html">Cursos</a></li>
-                <li><a href= "comunidad.html">Comunidad</a></li>
-                <button type="button">Registrase</button>
-                <button type="button">Acceder</button>
+    <meta
+      name="description"
+      content="Tenemos cursos basicos, intermedios y avanzados"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand text-white d-flex align-items-center"
+            href="index.html"
+          >
+            <img
+              width="50px"
+              height="50px"
+              src="./images/index/logo.png"
+              alt=""
+            />
+            <h3>
+              De 0 a <br />
+              Bilingüe
+            </h3>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav d-flex align-items-center m-auto mb-2 mb-lg-0"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white active"
+                  aria-current="page"
+                  href="./cursos.html"
+                  >Cursos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="comunidad.html"
+                  >Comunidad</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <button class="btn btn-light">
+                  <a class="nav-link text-dark" href="./registrarse.html"
+                    >Registrarse</a
+                  >
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-light">
+                  <a class="nav-link text-dark" href="./acceder.html"
+                    >Acceder</a
+                  >
+                </button>
+              </li>
             </ul>
-       </nav>
-
-
-       <div>
-        <h2>¡Veni! Conoce el contenido de nuestros cursos</h2>
-        
-            <img src="Imagenes2/Diseño_sin_título__3_-removebg-preview.png">
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main-cursos mt-5 pt-5">
+      <div class="container-content">
+        <div class="container-top">
+          <h2 class="text-1">¡Vení!</h2>
+          <h2 class="text-2">
+            Conoce el contenido de<br />
+            nuestros cursos
+          </h2>
+        </div>
+        <div class="container-bottom">
+          <a href="./registrarse.html">
+            <div class="text-container">
+              <h2 class="text-dark">01</h2>
+              <h3 class="text-dark">Inglés básico</h3>
+              <h4 class="text-white">
+                En este curso veremos la base del <br />
+                inglés centrandonos en dejarla sólida. <br />
+                Cada clase tiene su espacio de dudas y <br />
+                tareas. Tiene una prueba final y <br />
+                certificado.
+              </h4>
             </div>
-        
-        
-            <div>
-            <h3>01 Ingles basico</h3>
-            <p>
-                En este curso veremos la base del ingles centrandonos en dejarla solida. 
-                Cada clase tiene su espacio de dudas y tareas.
-                 Tiene una prueba final y certificado
-        
-            </p>
-        
-            <h3>02 Ingles intermedio</h3>
-            <p>
-                En este curso daremos un paso mas en vocabulario, gramtica y demas. 
-                Se profundiza la pronunciacion avanzada.
-                Al terminar se relaiza una prueba concertificado.
-        
-            </p>
-        
-            <h3>03 Ingles avanzado</h3>
-            <p>Este curso es el broche de oro, aqui habran constantes desafios para asegurarnos de todos los conceptos previosy finales con premios una vez logrados.
-                Las dudas son personalizadas.
-                Tiene prueba final y certificado.
-            </p>
+          </a>
+          <a href="./registrarse.html">
+            <div class="text-container">
+              <h2 class="text-dark">02</h2>
+              <h3 class="text-dark">Inglés básico</h3>
+              <h4 class="text-white">
+                En este curso daremos un paso mas en vocabulario, gramática y
+                demás. Se profudiza la pronunciación avanzada. Al terminar se
+                realiza una prueba con certificado.
+              </h4>
             </div>
-        
-        
-            <img src="Imagenes2/Diseño_sin_título__8_-removebg-preview.png">
-        
-
-
-
-
-
-       <footer>
-        <section>
-            <div>
-                <a href="https://www.instagram.com/deceroabilingue_/"></a>
-                <a href="https://twitter.com/deceroabilingue"></a>
-                
-                
+          </a>
+          <a href="./registrarse.html">
+            <div class="text-container">
+              <h2 class="text-dark">03</h2>
+              <h3 class="text-dark">Inglés avanzado</h3>
+              <h4 class="text-white">
+                Este curso es el broche de oro, aqui habrán constantes desafíos
+                para asegurarnos de todos los conceptos previos y finales con
+                premios una vez logrados. Las dudas son personalizadas. TIene
+                prueba final y certificado.
+              </h4>
             </div>
-        </section>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer footer__cursos">
+      <ul class="navbar-nav d-flex align-items-center">
+        <li class="nav-item">
+          <button class="btn btn-dark mt-1">
+            <a class="nav-link text-white" href="./registrarse.html"
+              >Registrarse</a
+            >
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-dark mt-1">
+            <a class="nav-link text-white" href="./acceder.html">Acceder</a>
+          </button>
+        </li>
+        <small class="text-center mt-2"
+          >&copy; Academia Web - All rights reserved</small
+        >
+      </ul>
     </footer>
-    
-    
-</body>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Comunidad</title>
-  <meta name="description" content="Conoce a nuestra comunidad y sus experiencias">
+  <title>Registrarse</title>
+  <meta name="description" content="Registrate y vivi la mejor experiencia">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -51,38 +51,43 @@
       </div>
     </nav>
   </header>
-  <main class="main-comunidad mt-5">
-    <div class="cards-comunidad">
-      <div class="card" style="width: 18rem;">
-        <img src="./images/comunidad/gaston.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Gaston Guats</h5>
-          <p class="card-text">Soy estudiante de la academia desde hace dos años y puedo decir que mi experiencia ha
-            sido
-            increible.</p>
+  <main class="main">
+    <div class="background-registrarse">
+      <div class="container-background">
+        <div class="container-left__registrarse">
+          <h2 class="padding padding-light ">
+            Conoce los beneficios de nuestra <br> academia.
+          </h2>
+          <h2 class="padding padding-dark">
+            ¡Tus primeros 3 dias son gratis!
+          </h2>
+          <h2>
+            Inscribiendote a nuestro webinar <br>
+            obtienes una beca del 50% en uno de <br>
+            nuestros cursos.
+          </h2>
         </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="./images/comunidad/emma.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Emma Gindel</h5>
-          <p class="card-text">Comencé de cero, no sabía nada de inglés. Hoy me encuentro dando examenes internacionales
-            gracias a esta academia.</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./images/comunidad/clara.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Clara Wiley</h5>
-          <p class="card-text">Siempre me gustó esta lengua desde muy chica, pero desde que entré inicié un curso hubo
-            un
-            antes y un después en mi pasión.</p>
+        <div class="container-right__registrarse">
+          <form id="myForm">
+            <div class="form-group">
+              <label>Tu nombre</label>
+              <input type="name" class="form-control" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="form-group">
+              <label>Correo electronico</label>
+              <input type="email" class="form-control" placeholder="Ingresa tu correo">
+            </div>
+            <div class="form-group">
+              <label>Whatsapp</label>
+              <input type="number" class="form-control" placeholder="Ingresa tu Whatsapp">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
         </div>
       </div>
     </div>
   </main>
-  <footer class="footer footer__comunidad">
+  <footer class="footer footer__registrarse">
     <ul class="navbar-nav d-flex align-items-center">
       <li class="nav-item">
         <button class="btn btn-dark mt-1">
@@ -102,6 +107,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
+  <script src=".scripts/registrarse.js"></script>
 </body>
 
 </html>

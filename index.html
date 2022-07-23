@@ -1,60 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina web</title>
-</head>
-<body>
-   
-    <header>
-    <h1>De 0 a bilingüe</h1>
-    <img src="Imagenes2/imagen1.png">
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web Académica</title>
+    <meta
+      name="description"
+      content="Somos Web Académica - Academia de Idioma, de 0 a Bilingüe. "
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand text-white d-flex align-items-center"
+            href="index.html"
+          >
+            <img
+              width="50px"
+              height="50px"
+              src="./images/index/logo.png"
+              alt=""
+            />
+            <h3>
+              De 0 a <br />
+              Bilingüe
+            </h3>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav d-flex align-items-center m-auto mb-2 mb-lg-0"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white active"
+                  aria-current="page"
+                  href="./cursos.html"
+                  >Cursos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="comunidad.html"
+                  >Comunidad</a
+                >
+              </li>
 
- <nav>
-    <ul>
-        <li><a href= "cursos.html">Cursos</a></li>
-            <li><a href= "comunidad.html">Comunidad</a></li>
-            <button type="button">Registrase</button>
-            <button type="button">Acceder</button>
-        </ul>
-   </nav>
-   
-      
-<main>
-<a hred="index.html">
-    <img src="Imagenes2/Diseño_sin_título__5_-removebg-preview (1).png">
-</a>
-    <img src="imagen1.png">
-    <p>
-        Contamos con cursos desde nivel 0 hasta nivel 100 para todas las edades.
-    </p>
-
-    <button type="button">Comenzar gratis</button>
-    </main>
-
-
-
-
-
-<footer>
-    <section>
-        <div>
-            <a href="https://www.instagram.com/deceroabilingue_/"></a>
-            <a href="https://twitter.com/deceroabilingue"></a>
-            
+              <li class="nav-item">
+                <button class="btn btn-light">
+                  <a class="nav-link text-dark" href="./registrarse.html"
+                    >Registrarse</a
+                  >
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-light">
+                  <a class="nav-link text-dark" href="./acceder.html"
+                    >Acceder</a
+                  >
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
-    </section>
-</footer>
-
-
-
-
-</body>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="background-index">
+        <div class="container">
+          <div class="container-background">
+            <div class="container-left__index">
+              <div class="container-logo i1">
+                <a class="navbar-brand text-white" href="#">
+                  <img
+                    width="50px"
+                    height="50px"
+                    src="./images/index/logo.png"
+                    alt=""
+                  />
+                  <h1 class="text-dark">
+                    De 0 a <br />
+                    Bilingüe
+                  </h1>
+                </a>
+              </div>
+              <div class="container-info i2">
+                <h5>
+                  Contamos con cursos desde <br />nivel 0 hasta nivel 100 <br />
+                  para todas las edades.
+                </h5>
+              </div>
+              <div class="container-button i3">
+                <a
+                  class="text-dark text-decoration-none"
+                  href="registrarse.html"
+                  ><button class="btn btn-light">Comenzar gratis</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer footer__index">
+      <ul class="navbar-nav d-flex align-items-center justify-content-center">
+        <li class="nav-item">
+          <button class="btn btn-dark mt-1">
+            <a class="nav-link text-white" href="./registrarse.html"
+              >Registrarse</a
+            >
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-dark mt-1">
+            <a class="nav-link text-white" href="./acceder.html">Acceder</a>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-dark mt-1">
+            <a class="nav-link text-white" href="#">Whatsapp</a>
+          </button>
+        </li>
+        <small class="text-center mt-2"
+          >&copy; Academia Web - All rights reserved</small
+        >
+      </ul>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-
-
-
